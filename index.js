@@ -12,6 +12,7 @@ app.get("/", (req, res) => {
 
 app.post("/", (req, res) => {
   console.log(req.body);
+  console.log(req);
   res.send("Ok");
 });
 
